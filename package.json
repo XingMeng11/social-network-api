@@ -1,27 +1,29 @@
 {
-    "name": "social-network-api",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-      "start": "node index.js",
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [],
-    "author": "",
-
-
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/XingMeng11/social-network-api"
-    },
-
-    "dependencies": {
-      "express": "^4.17.1",
-      "mongoose": "^6.3.4"
-    },
-    "devDependencies": {
-      "nodemon": "^2.0.9"
-    }
-  
+  "name": "social-network-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "watch": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XingMeng11/social-network-api.git"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  },
+  "bugs": {
+    "url": "https://github.com/XingMeng11/social-network-api/issues"
+  },
+  "homepage": "https://github.com/XingMeng11/social-network-api#readme",
+  "license": "ISC"
 }
